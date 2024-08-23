@@ -4,3 +4,30 @@
         display: none;
         }
     }
+    .lista-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+        }
+    .container__botao:checked ~ .lista-menu {
+     display: block;
+    }
+    .cabeçalho {
+        background-color: var(--branco);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        }
+        .lista-menu__titulo {
+            color: var(--laranja);
+            font-weight: 700;
+            }
+.lista-menu__item {
+padding: 1em;
+background-color: var(--branco);
+}
+.container__botao {
+    display: none;
+    }
