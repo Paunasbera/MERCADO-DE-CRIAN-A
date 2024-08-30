@@ -25,7 +25,8 @@
         <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
         <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
     </header>
-    
+
+    <script src=”https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js”></script>
 </body>
 </html>
 <link>@import url("styles/header.css");
@@ -75,8 +76,26 @@
         </section>
         <section class=”carrossel”>
             <h2 class=”carrossel__titulo”>Novos lançamentos</h2>
-            </section>
 
+            <div class=”swiper”>
+                <!-- Additional required wrapper -->
+                <div class=”swiper-wrapper”>
+                <!-- Slides -->
+                <div class=”swiper-slide”><img> </div>
+                <div class=”swiper-slide”><img> </div>
+                <div class=”swiper-slide”><img> </div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class=”swiper-pagination”></div>
+                <!-- If we need navigation buttons -->
+                <div class=”swiper-button-prev”></div>
+                <div class=”swiper-button-next”></div>
+                <!-- If we need scrollbar -->
+                <div class=”swiper-scrollbar”></div>
+                </div>
+        </section>
+        
             <head>
                 <meta charset=”UTF-8”>
                 <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
@@ -93,5 +112,4 @@
                 
                 <link rel=”stylesheet” href=”styles.css”>
                 </head>
-
               
